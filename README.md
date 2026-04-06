@@ -1,13 +1,42 @@
-# AIEDFinalProjectShowcase
+# AIED Final Project Showcase
 
-In order to run this program, you need an OpenAI API key to have the program to run properly with the AI functions as a feedback for the user.
+## ⚠️ Important Notice
 
-Backend.py
-Implementation of the OpenAI API key
+This project is intentionally configured **not to fully function out of the box**.
+The required `API_KEY` has been omitted on purpose and will not be provided.
 
-1)python backend.py on the terminal to run the backend.py
+## 🧠 What Still Works
 
-2)Run main.py together to have the backend.py running together allowing the AI evaluation of the feedback 
+Most of the project structure and logic can still run locally. This allows you to:
 
-Main.py
--Front-end of the UI for the game. 
+* Explore the codebase
+* Test partial functionality
+* Understand how components are connected
+
+## ⚙️ Setup Instructions
+
+1. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Start the backend:
+
+   ```bash
+   python AIED/backend.py
+   ```
+
+3. Run the main application:
+
+   ```bash
+   python main.py
+   ```
+
+## 🔑 API Key Requirement
+
+To enable full functionality, you would need to supply your own API key where required in the codebase.
+
+## 📌 Summary
+
+This repository is shared for demonstration and structural purposes only. Full execution depends on external credentials that are intentionally excluded.
