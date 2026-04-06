@@ -65,7 +65,7 @@ def call_ai(epiphanies: dict,
     except requests.exceptions.ConnectTimeout:
         return "AI Error: Connection timed out."
     except requests.exceptions.ConnectionError:
-        return "AI Error: Could not connect to backend. Is it running?"
+        return "For security reasons, this build does not access openAI."
     except Exception as e:
         return f"AI Error: {e}"
 
